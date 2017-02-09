@@ -11,6 +11,7 @@ export const c: boolean
 export const android: boolean
 export const bada: boolean
 export const blackberry: boolean
+export const blink: boolean
 export const chrome: boolean
 export const firefox: boolean
 export const gecko: boolean
@@ -44,7 +45,7 @@ export const windowsphone: boolean
 export function test(browserList: Flag[]): boolean
 export function isUnsupportedBrowser(minVersions:Object, strictMode?:Boolean, ua?:string): boolean
 
-export type Flag = "a" | "b" | "c" | "android" | "bada" | "blackberry"
+export type Flag = "a" | "b" | "c" | "android" | "bada" | "blackberry" | "blink"
                  | "chrome" | "firefox" | "gecko" | "ios" | "msie"
                  | "msedge" | "opera" | "phantom" | "safari"
                  | "sailfish" | "seamonkey" | "silk" | "tizen"
