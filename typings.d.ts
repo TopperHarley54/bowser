@@ -11,6 +11,7 @@ export const c: boolean
 export const android: boolean
 export const bada: boolean
 export const blackberry: boolean
+export const blink: boolean
 export const chrome: boolean
 export const firefox: boolean
 export const gecko: boolean
